@@ -21,6 +21,13 @@ info : json file ada pada git
 
 
 
+
+# DOCKER REPOSITORI 
+
+
+DOCKERHUB : https://hub.docker.com/repository/docker/syscrypt/eki-mongo
+
+
 # cara run container :
 
 - install docker 
