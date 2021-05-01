@@ -9,6 +9,16 @@ Ini adalah test frontend pada salah satu perusahaan
 
 
 
+# MONGO DB database
+- buatlah DATABASE "EKI_INRADI"
+
+- Collections "eki_antrians"
+
+- Collections "eki_pasiens"
+
+
+info : json file ada pada git
+
 
 
 # cara run container :
@@ -17,9 +27,11 @@ Ini adalah test frontend pada salah satu perusahaan
 
 - docker images
 
-- docker pull mongo:4.4.5-bionic
+- docker pull syscrypt/eki-mongo:4.4.5-bionic
 
-- docker container create --name eki_mongodb -p 7000:27017 mongo:4.4.5-bionic
+- docker container create --name eki_mongodb2 -p 7000:27017 mongo:4.4.5-bionic
+
+- docker container start eki_mongodb2
 
 - docker container start eki_mongodb
 
