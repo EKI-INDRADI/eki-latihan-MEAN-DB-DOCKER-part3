@@ -40,7 +40,7 @@ DOCKERHUB : https://hub.docker.com/repository/docker/syscrypt/eki-mongo
 
 - docker container start eki_mongodb2
 
-- docker container start eki_mongodb
+
 
 URI : mongodb://192.168.100.3:7000
 
